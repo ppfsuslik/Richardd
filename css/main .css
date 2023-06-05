@@ -69,14 +69,14 @@
     margin-top: 60px;
 }
 
-.main__intro{
-   background:#1B1B1B; 
-   width: 100%;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-   height: 100vh;
+.main__intro {
+    background: #1B1B1B;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
 .title {
@@ -98,10 +98,62 @@
     text-align: center;
 }
 
-.main__intro-title{
+.main__intro-title {
     margin-top: 100px;
 }
 
-.main__intro-img{
+.main__intro-img {
     margin-top: 55px;
+}
+
+
+.main__menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__menu-card{
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+
+}
+
+.main__menu-card-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.main__menu-card-info-name {
+    font-family: var(--GR);
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 48px;
+    width: 302px;
+    margin-top: 25px;
+}
+
+.main__menu-card-info-desc {
+    font-family: var(--GR);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #6B6B6B;
+    width: 306px;
+    margin-top: 22px;
+}
+
+.card1{
+    margin-top: 80px;
+}
+
+.card2{
+    margin-top: 160px;
+}
+
+.card3{
+    margin-top: 160px;
 }
