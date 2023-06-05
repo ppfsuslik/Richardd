@@ -55,16 +55,53 @@
     line-height: 26px;
     color: white;
     background: #FC0A7E;
-    padding: 20px 40px; 
+    padding: 20px 40px;
     margin-top: 45px;
     transition: 0.3s;
 }
 
-.header__main-desc-btn:hover{
+.header__main-desc-btn:hover {
     background: white;
     color: #FC0A7E;
 }
 
-.header__main-img{
+.header__main-img {
     margin-top: 60px;
+}
+
+.main__intro{
+   background:#1B1B1B; 
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+}
+
+.title {
+    font-family: var(--GR);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #A8A8A8;
+}
+
+.main__intro-desc {
+    font-family: var(--GR);
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 48px;
+    color: white;
+    margin-top: 30px;
+    width: 607px;
+    text-align: center;
+}
+
+.main__intro-title{
+    margin-top: 100px;
+}
+
+.main__intro-img{
+    margin-top: 55px;
 }
