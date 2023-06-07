@@ -173,7 +173,6 @@
     font-weight: 400;
     line-height: 30px;
     color: #6B6B6B;
-    width: 371px;
     text-align: center;
     margin-top: 17px;
 }
@@ -208,34 +207,105 @@
     text-align: center;
 }
 
-.main__food{
+.main__food {
     display: flex;
     flex-direction: column;
 }
 
-.main__food-card{
+.main__food-card {
     display: flex;
     justify-content: space-around;
 }
 
-.main__food-card-info-title{
+.main__food-card-info-title {
     margin-top: 177px;
 }
 
-.main__food-card-info-name{
+.main__food-card-info-name {
     width: 258px;
     margin-top: 30px;
 }
 
-.main__food-card-info-desc{
+.main__food-card-info-desc {
     width: 330px;
     margin-top: 22px;
 }
 
-.main__food-card-img{
+.main__food-card-img {
     margin-top: 170px;
 }
 
-.main__food-card-info-name2{
+.main__food-card-info-name2 {
     margin-top: 25px;
+}
+
+.main__food-conclusion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__food-conclusion-ps {
+    width: 58px;
+    margin-top: 162px;
+}
+
+.main__food-conclusion-desc {
+    font-family: var(--GR);
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    width: 700px;
+    margin-top: 66px;
+    color: #6B6B6B;
+}
+
+.main__food-conclusion-img {
+    margin-top: 142px;
+}
+
+.main__food-conclusion-bottom {
+    margin-top: 118px;
+}
+
+.footer {
+    background: linear-gradient(276.18deg, #6E28B1 0%, rgba(0, 0, 0, 0) 100%), #FC0A7E;
+    position: relative;
+    height: 473px;
+}
+
+
+.footer__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.footer__download-title {
+    font-family: var(--GR);
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: center;
+    color: white;
+}
+
+.footer__download-btn-btn {
+    padding: 20px 40px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 0px 0px #FFFFFF33;
+    color: white;
+    background: none;
+}
+
+.footer__download-btn-btn:hover {
+    background: #FC0A7E;
+}
+
+.footer__download-btn {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
 }
