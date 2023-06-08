@@ -23,6 +23,42 @@
     font-weight: 400;
     line-height: 20px;
     color: white;
+    position: relative;
+}
+
+.header__top__navbar-list-item::before{
+    content: "";
+    width: 0px;
+    height: 1px;
+    background: white;
+    opacity: 0;
+    position: absolute;
+    bottom: -2px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.3s;
+}
+
+.header__top__navbar-list-item::after{
+    content: "";
+    width: 83px;
+    height: 1px;
+    background: white;
+    opacity: 0;
+    position: absolute;
+    top: -2px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.3s;
+}
+
+.header__top__navbar-list-item:hover::before{
+    opacity: 1;
+    width: 83px;
+}
+
+.header__top__navbar-list-item:hover::after{
+    top: 15px;
 }
 
 .header__main {
@@ -261,7 +297,7 @@
     color: #6B6B6B;
 }
 
-.main__food-conclusion-pb{
+.main__food-conclusion-pb {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -284,26 +320,26 @@
 }
 
 .main__food-conclusion-pb-h2 {
-    font-family:var(--GB);
+    font-family: var(--GB);
     font-size: 16px;
     font-weight: 700;
     line-height: 30px;
     color: #6B6B6B;
 }
 
-.main__food-conclusion_nextpage{
+.main__food-conclusion_nextpage {
     display: flex;
     gap: 16px;
     margin-top: 88px;
 }
 
-.main__food-conclusion_nextpage-1{
+.main__food-conclusion_nextpage-1 {
     width: 7px;
     height: 7px;
     background: #222222;
 }
 
-.main__food-conclusion_nextpage-2{
+.main__food-conclusion_nextpage-2 {
     width: 7px;
     height: 7px;
     background: #22222266;
@@ -350,6 +386,7 @@
     margin-top: 40px;
     width: 190px;
     height: 66px;
+    transition: 0.3s;
 }
 
 .footer__download-btn-btn:hover {
@@ -370,4 +407,87 @@
     background: linear-gradient(276.18deg, #6E28B1 0%, rgba(0, 0, 0, 0) 100%), #FC0A7E;
     height: 474px;
 
+}
+
+.footer__subscribe {
+    background: #1B1B1B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__subscribe-title {
+    font-family: var(--GR);
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 48px;
+    color: white;
+    margin-top: 129px;
+}
+
+.footer__subscribe-desc {
+    font-family: var(--GR);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #6B6B6B;
+    margin-top: 20px;
+}
+
+.footer__subscribe-form {
+    margin: 40px 0 126px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__subscribe-form-input {
+    font-family: var(--GR);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #1C1C1C;
+    padding: 22px 155px 22px 3px;
+}
+
+.footer__subscribe-form-btn {
+    font-family: var(--GR);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #1C1C1C;
+    background: #FC0A7E;
+    padding: 22px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.footer__subscribe-form-btn:hover {
+    background: #b4095c;
+}
+
+.footer__end {
+    background: #1B1B1B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__enf-SMlihks-list {
+    display: flex;
+    gap: 30px;
+    margin: 29px 0 69px 0;
+}
+
+.footer__enf-SMlihks-list-item-link {
+    font-family: var(--GR);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #6B6B6B;
+}
+
+.footer__enf-SMlihks-list-item-link:hover{
+    color: #b4095c;
 }
