@@ -1,0 +1,162 @@
+@media screen and (max-width: 1190px) {
+    .main__intro-img{
+        width: 1100px;
+        height: 500px;
+    }
+
+}
+
+@media screen and (max-width:1128px){
+    .main__icon-card-desc{
+        width: 200px;
+    }
+}
+
+@media screen and (max-width:1110px){
+    .header__main-img{
+        width: 500px;
+        height: 520px;
+    }
+
+    .main__intro-img{
+        width: 900px;
+        height: 500px;
+    }
+
+}
+
+@media screen and (max-width:1020px) {
+    .main__food-conclusion-img{
+        width: 900px;
+    }
+}
+
+@media  screen and (max-width:922px){
+    .main__intro-img{
+        width: 700px;
+        height: 430px;
+    }
+
+    .main__food-conclusion-img{
+        width: 700px;
+    }
+
+    .header__main-img{
+        width: 400px;
+        height: 520px;
+    }
+
+    .header__main-desc-h{
+        font-size: 50px;
+    }
+
+    .header__main-desc-p{
+        font-size: 20px;
+
+    }
+
+    .header__main-desc-btn{
+        font-size: 10px;
+    }
+
+    .header{
+        height: 80vh;
+    }
+    
+    .main__intro{
+        height: 85vh;
+    }
+
+    .main__menu-card-info-img{
+        width: 250px;
+        height: 400px;
+    }
+
+    .main__food-card-img{
+        width: 400px;
+        height: 300px;
+    }
+}
+
+@media  screen and (max-width:750px){
+    .main__intro-img{
+        width: 500px;
+        height: 330px;
+    }
+
+    .header__main-img{
+      width: 300px;
+      height: 420px;
+    }
+
+    .main__menu-card{
+        flex-direction: column;
+    }
+
+    .header__top{
+        flex-direction: column;
+    }
+
+    .main__icon{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main__statistics{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main__food-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main__food-conclusion-desc{
+        width: 400px;
+    }
+
+    .main__food-conclusion-img{
+        width: 500px;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    .header__main-img{
+        opacity: 0;
+        width: 20px;
+        height: 20px;
+    }
+
+    .header__main-desc{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header__main-desc-h{
+        margin-top: 50px;
+    }
+
+    .main__intro-img{
+        opacity: 0;
+        width: 20px;
+        height: 20px;
+    }
+
+    .main__intro{
+        height: 40vh;
+    }
+
+    .header{
+        height: 60vh;
+    }
+
+    .main__food-conclusion-img{
+        width: 400px;
+    }
+
+    
+}
